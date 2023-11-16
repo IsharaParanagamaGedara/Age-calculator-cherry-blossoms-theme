@@ -52,11 +52,6 @@ button:hover {
   background-color: #d23c74;
 }
 
-#result {
-  margin-top: 20px;
-  font-size: 1.5em;
-}
-
 .background-image {
   position: fixed;
   top: 50%;
@@ -67,4 +62,21 @@ button:hover {
   transform: translate(-50%, -50%);
 }
 
-
+#result {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  #result p {
+    margin: 10px 0;
+  }
+  
+  #result p:first-child {
+    font-weight: bold;
+  }
+  
+  #result p:last-child {
+    font-style: italic;
+    color: #666;
+  }
